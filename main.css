@@ -1,0 +1,47 @@
+@font-face{
+    font-family: "Gistesy";
+    src: url(kom&leef/assets/Fonts/gistesy/Gistesy.ttf) format("opentype");
+
+}
+
+@font-face{
+    font-family: "nunito-regular";
+    src: url(kom&leef/assets/Fonts/nunito/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: "nunito-italic";
+    src: url(kom&leef/assets/Fonts/nunito/Nunito-Italic-VariableFont_wght.ttf) format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+:root{
+
+    /*colors*/
+    --background-pink: #FDF1F1;
+    --tb-blue: #BFD3DA;
+    --btn-green: #BDC667;
+    --dom-pink: #f6b5ad;
+    --acc-black: #000;
+    --gold: #C99B46;
+
+
+    /*Font-nunito*/
+    --font-family: 'nunito-regular';
+    --font-italic:'nunito-italic';
+
+    /*Font-gistesy*/ 
+
+    --font-heading1: 'Gistesy';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
